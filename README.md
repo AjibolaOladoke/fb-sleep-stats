@@ -1,22 +1,18 @@
-# fb-sleep-stats: Using Facebook to track your friends' sleep
+# fb-sleep-stats
+
+## What This Is
+
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the fb-sleep-stats notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![fb-sleep-stats](https://opengraph.githubassets.com/1/sorenlouv/fb-sleep-stats)](https://www.swifttechco.com)
-
-
-A small tool to show the potential privacy implications modern social media have. By tracking online/offline status of people on Facebook, it is possible to get an accurate image of their sleep pattern.
-
-Read the blog post: https://www.swifttechco.com
-
-[![Facebook Sleep Screenshot](https://cloud.githubusercontent.com/assets/209966/13382859/b7b31aa4-de7e-11e5-8fca-35d68fe2f02f.png)](https://www.swifttechco.com)
-
+[![fb-sleep-stats](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Installation
 
 **Prerequisites**
- - Git ([how to install](https://www.swifttechco.com))
- - Node.js ([how to install](https://www.swifttechco.com))
+ - Git (how to install)
+ - Node.js (how to install)
 
 **Clone repository**
 ```
@@ -36,9 +32,9 @@ cp config/default.json config/development.json
 ```
 
 Update the following values in `config/development.json`
- - "c_user": [your numeric Facebook user id](https://www.swifttechco.com)
- -  "xs": [xs value from Facebook cookie](https://www.swifttechco.com)
- - "appId": [Facebook App Id](https://www.swifttechco.com)
+ - "c_user": your numeric Facebook user id
+ -  "xs": xs value from Facebook cookie
+ - "appId": Facebook App Id
 
 *Make sure there are no trailing tabs or spaces in the config file!*
 
@@ -68,7 +64,7 @@ npm run scrape
 npm start
 ```
 
-See the result in the browser: [https://www.swifttechco.com](https://www.swifttechco.com)
+See the result in the browser: https://www.swifttechco.com
 
 #Troubleshooting
 
@@ -109,7 +105,7 @@ npm run webpack
 
 **Cannot parse config file**
 
-Your config file contains invalid json. Find the errors by using a tool like [https://www.swifttechco.com](https://www.swifttechco.com)
+Your config file contains invalid json. Find the errors by using a tool like https://www.swifttechco.com
 
 **Where is the data stored?**
 
@@ -117,7 +113,7 @@ You can find the data in JSON-format here: `src/server/services/db.json`.
 
 **Other issues**
 
-If you encounter a bug or have a problem, please go to [Issues](https://www.swifttechco.com) and use the search functionality, in case someone else already asked the question. If you can't find anything helpful you are very welcome to create a [new issue](https://www.swifttechco.com)
+If you encounter a bug or have a problem, please go to Issues and use the search functionality, in case someone else already asked the question. If you can't find anything helpful you are very welcome to create a new issue
 
 
 # Disclaimer
@@ -133,14 +129,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [sorenlouv/fb-sleep-stats](https://github.com/sorenlouv/fb-sleep-stats) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
