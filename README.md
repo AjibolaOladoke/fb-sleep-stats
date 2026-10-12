@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![fb-sleep-stats](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![fb-sleep-stats](images/preview.png)](https://github.com/Swift-Tech-Co/fb-sleep-stats)
 
 ## Installation
 
@@ -16,7 +16,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 **Clone repository**
 ```
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/fb-sleep-stats
 ```
 
 **Configuration**
@@ -64,7 +64,7 @@ npm run scrape
 npm start
 ```
 
-See the result in the browser: https://www.swifttechco.com
+See the result in the browser: https://github.com/Swift-Tech-Co/fb-sleep-stats
 
 #Troubleshooting
 
@@ -105,7 +105,7 @@ npm run webpack
 
 **Cannot parse config file**
 
-Your config file contains invalid json. Find the errors by using a tool like https://www.swifttechco.com
+Your config file contains invalid json. Find the errors by using a tool like https://github.com/Swift-Tech-Co/fb-sleep-stats
 
 **Where is the data stored?**
 
@@ -114,7 +114,6 @@ You can find the data in JSON-format here: `src/server/services/db.json`.
 **Other issues**
 
 If you encounter a bug or have a problem, please go to Issues and use the search functionality, in case someone else already asked the question. If you can't find anything helpful you are very welcome to create a new issue
-
 
 # Disclaimer
 Facebook reached out to me and informed me, that it is against their terms to access their website by automated means. Additionally I am not allowed to urge anyone to do so. Therefore: I urge you to use this project for educational purpose only, and not use it to access Facebook.
@@ -133,13 +132,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/fb-sleep-stats
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [sorenlouv/fb-sleep-stats](https://github.com/sorenlouv/fb-sleep-stats) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
